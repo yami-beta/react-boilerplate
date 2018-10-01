@@ -1,5 +1,6 @@
-const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 let publicPath = "/";
 
@@ -28,7 +29,13 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: path.join(__dirname, "src", "index.html")
-    })
+    }),
+    new CopyWebpackPlugin([
+      {
+        from: "node_modules/sanitize.css/sanitize.css",
+        to: "vendor/"
+      }
+    ])
   ],
   devServer: {
     contentBase: path.join(__dirname, "dist"),
