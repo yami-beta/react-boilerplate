@@ -50,7 +50,7 @@ jobs:
 
 workflows:
   version: 2
-  install_build_lint_test_deploy:
+  install_and_build:
     jobs:
       - install
       - lint:
