@@ -7,7 +7,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "lint": "eslint",
+    "lint:ts": "eslint --ext .ts,.tsx src/",
+    "lint": "run-p lint:*",
     "build:ts": "webpack --mode production",
     "watch:ts": "webpack-dev-server --mode development",
     "build": "run-p build:*",
