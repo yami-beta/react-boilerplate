@@ -5,6 +5,5 @@
     ":automergeMinor",
     ":timezone(Asia/Tokyo)"
   ],
-  "rangeStrategy": "bump",
-  "schedule": ["after 7am on friday"]
+  "rangeStrategy": "bump"
 }
