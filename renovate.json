@@ -2,8 +2,13 @@
   "extends": [
     "config:base",
     ":rebaseStalePrs",
+    ":prNotPending",
+    ":unpublishSafe",
     ":automergeMinor",
     ":timezone(Asia/Tokyo)"
   ],
-  "rangeStrategy": "bump"
+  "rangeStrategy": "bump",
+  "circleci": {
+    "enabled": true
+  }
 }
