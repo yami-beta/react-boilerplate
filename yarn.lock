@@ -4158,10 +4158,10 @@ safe-regex@^1.1.0:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-sanitize.css@^8.0.1:
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/sanitize.css/-/sanitize.css-8.0.1.tgz#bd38f9752b0972849d2de260daeaa99878fd349e"
-  integrity sha512-5Gsh+BmqyhixJIh68mpP1NkiiKNTeQi9WPQvdVPxfcFIkiuXKcDkKHhYekxheK45KI52bIUC/FXK8R5HGOza5Q==
+sanitize.css@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/sanitize.css/-/sanitize.css-9.0.0.tgz#265046e3e680b499ae8b349811875688d0fce84a"
+  integrity sha512-1Ux0Tn6eoLJMzCqb1gVgWaZWurTb5PbsxZIegJ7WVggGeTKx7jaHZ6U8GJenwuJRsH1eqBmwtqcaOKXhatILtg==
 
 sax@^1.2.4:
   version "1.2.4"
