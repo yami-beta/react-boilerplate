@@ -4,6 +4,10 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 let publicPath = "/";
 
+/**
+ * @typedef { () => import("webpack").Configuration } WebpackConfigFunc
+ * @type WebpackConfigFunc
+ */
 module.exports = (env, argv) => {
   const mode = argv.mode || "development";
 
