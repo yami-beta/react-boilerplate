@@ -34,8 +34,8 @@
     "webpack-dev-server": "^3.8.2"
   },
   "dependencies": {
-    "react": "^16.10.1",
-    "react-dom": "^16.10.1",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
     "sanitize.css": "^11.0.0"
   }
 }
