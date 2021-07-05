@@ -17,7 +17,7 @@
   "devDependencies": {
     "@types/react": "^16.14.10",
     "@types/react-dom": "^16.9.13",
-    "@types/webpack": "^4.41.29",
+    "@types/webpack": "^4.41.30",
     "@typescript-eslint/eslint-plugin": "^2.31.0",
     "@typescript-eslint/parser": "^2.31.0",
     "copy-webpack-plugin": "^5.1.2",
