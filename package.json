@@ -15,8 +15,8 @@
     "watch": "run-p watch:*"
   },
   "devDependencies": {
-    "@types/react": "^16.14.21",
-    "@types/react-dom": "^16.9.14",
+    "@types/react": "^16.14.62",
+    "@types/react-dom": "^16.9.24",
     "@types/webpack": "^4.41.32",
     "@typescript-eslint/eslint-plugin": "^2.31.0",
     "@typescript-eslint/parser": "^2.31.0",
